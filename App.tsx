@@ -1,10 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import ShowWords from './components/ShowWords';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      
       <Text style={styles.titleText}>토익 단어장</Text>
+      <ShowWords/>
     </View>
   );
 }
